@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <fieldset><h1 align="center">Hotel Room Booking Form</h1> <!--border-->
+        <legend></legend><!--caption-->
+        <form action="./response.html" align="center"><!--attribute for form(name ,target,method(get is attribute of method),)   -->
+            <label for="name" >Full Name:</label>
+            <input type="text" name="name" id="name" placeholder="" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" >
+            <br><br>
+            <label for="tel">Phone:</label>
+            <input type="tel" name="tel" id="tel">
+            <br><br>
+            <label for="dob">Check-in-Date</label>
+            <input type="date" name="dob" id="dob">
+            <br><br>
+            <label for="dob">Check-out Date</label>
+            <input type="date" name="dob" id="dob">
+            <br><br>
+            <label for="lang">Room type</label>
+            <select name="lang" id="lang">
+                <option value="select">select</option>
+                <option value="a">deleuxe</option>
+                <option value="b">economy</option>
+            <br><br>
+            <label for="num">Number of Guests:</label>
+            <input type="number" name="num" id="num">
+            <br><br>
+            <label for="spe">special request:</label>
+            <textarea name="spe" id="spe" rows="4" cols="50"></textarea>
+            <br><br>
+            <input type="submit" value="Book Now">
+            <input type="reset" value="Reset">
+            
+                
+            </select>
+
+
+            
+
+        </form>
+
+
+
+    </fieldset>
+
+    
+</body>
+</html>
